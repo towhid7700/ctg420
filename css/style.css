@@ -1,0 +1,77 @@
+body{
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 650px;
+	margin: 10% auto;  
+
+}
+.login-section{
+    background: #353e368a;
+    padding: 25px;
+   
+}
+
+.login-section img{
+	width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.login-section h2{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+    color: #fff;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.form-control{
+	width: 98%;
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.login-btn{
+	margin: 0 auto;
+    display: block;
+    background: darkred;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.4s ease-in-out;
+   
+   
+}
+.login-btn:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #fff;
+}
+.sing-btn{
+	margin: 0 auto;
+	display: block;
+	background: darkred;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	border: block;
+	transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+.sing-btn:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #fff;
+}
+.login-section p{
+	color: #fff;
+	font-size: 20px;
+}
+.login-section a{
+	    color: #87ceebeb;
+}
